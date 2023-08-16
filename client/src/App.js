@@ -1,33 +1,3 @@
-// import React from 'react'
-// import { GoogleMap, LoadScript, Marker } from '@react_google_maps/api'
-
-// const containerStyle = {
-//   width: '400px',
-//   height: '400px'
-// }
-
-// const center = {
-//   lat: _34.397,
-//   lng: 150.644
-// }
-
-// function App() {
-//   return (
-//     <>
-//       <LoadScript googleMapsApiKey="AIzaSyAEnYSOJRVWcr2IEIGup_yeMwPA5Ppezl0">
-//         <GoogleMap
-//           mapContainerStyle={containerStyle}
-//           center={center}
-//           zoom={8}
-//         >
-//           <Marker position={center} />
-//         </GoogleMap>
-//       </LoadScript>
-//     </>
-//   )
-// }
-
-// export default App
 import React, { useState } from 'react';
 import './App.css';
 import axios from 'axios';
