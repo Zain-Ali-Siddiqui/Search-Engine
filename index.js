@@ -25,7 +25,7 @@ app.get('/search', async (req, res) => {
   }
 })
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.json({
     success: true,
     message: 'GET request successful',
