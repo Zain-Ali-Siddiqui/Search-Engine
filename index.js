@@ -25,7 +25,12 @@ app.get('/search', async (req, res) => {
   }
 })
 
-
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'GET request successful',
+  })
+})
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`)
 })
