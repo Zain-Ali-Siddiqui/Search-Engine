@@ -5,8 +5,8 @@ const app = express()
 const PORT = 4000
 
 app.use(cors())
-const API_KEY = 'AIzaSyAQBKdQPR3ykLIcgeOtlKOu0uVvVam0dWg'
-const SEARCH_ENGINE_ID = 'f798cb6a3ef5c47d2'
+const API_KEY = ''
+const SEARCH_ENGINE_ID = ''
 
 app.use(express.json())
 
