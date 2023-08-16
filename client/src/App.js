@@ -8,7 +8,7 @@ const App = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`http://localhost:4000/search?q=${query}`);
+      const response = await axios.post(`http://localhost:4000/search?q=${query}`);
       console.log(response);
       const data = response?.data?.items;
       setResults(data);

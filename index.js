@@ -10,7 +10,7 @@ const SEARCH_ENGINE_ID = ''
 
 app.use(express.json())
 
-app.get('/search', async (req, res) => {
+app.post('/search', async (req, res) => {
   const query = req.query.q
   const apiUrl = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${query}`
 
