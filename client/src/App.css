@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.search_container {
+  margin: 50px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app_title {
+  text-align: center;
+  color: #1a0dab;
+  margin-bottom: 20px;
+}
+
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search_input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #1a0dab;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+}
+
+.search_input:active {
+  border: 2px solid #1a0dab;
+}
+
+.search_input:focus {
+  border: 2px solid #1a0dab;
+}
+
+.search_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1a0dab;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  border: 2px solid #1a0dab;
+}
+
+.search_button:hover {
+  background-color: #0c0758;
+  border: 2px solid #0c0758;
+}
+
+.search_results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image_div {
+  background-color: black;
+  width: 196px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result_item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.result_image {
+  max-width: 196px;
+  height: 100px;
+}
+
+.result_link {
+  font-size: 18px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.result_link:hover {
+  text-decoration: underline;
+}
+
+.result_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.result_link {
+  font-size: 18px;
+  color: #1a0dab;
+  text-decoration: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.result_url {
+  font-size: 14px;
+  color: #777;
+}
+
+.result_url>a {
+  color: #777;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .result_item {
+    display: block;
+  }
+}
